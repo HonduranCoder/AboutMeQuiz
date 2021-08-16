@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
 	/* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -59,6 +61,7 @@ header {
 
 span {
 	margin-right: 10px;
+	font-family: Roboto;
 }
 
 footer {
@@ -97,6 +100,7 @@ p {
 	color: #710;
 	font-weight: bolder;
 	text-shadow: 1px 1px grey;
+	font-family: Montserrat;
 }
 
 .dog {
@@ -109,6 +113,7 @@ p {
 	font-weight: bolder;
 	color: black;
 	text-shadow: 1px 1px grey;
+	font-family: Montserrat;
 }
 
 .honduras {
@@ -121,6 +126,7 @@ p {
 	font-weight: bolder;
 	color: navy;
 	text-shadow: 1px 1px grey;
+	font-family: Montserrat;
 }
 
 .button {
