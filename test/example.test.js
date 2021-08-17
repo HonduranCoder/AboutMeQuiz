@@ -5,9 +5,8 @@ import {countsAsAYes} from '../utils';
 const test = QUnit.test;
 
 test('Tell if the answer is yes or no', (expect) => {
-    const yes = 'y';
     const expected = true;
     const actual = countsAsAYes(yes);
 
-    expect.equal(actual,expected);
+    expect.equal(actual,expected, 'yes is true');
 });
