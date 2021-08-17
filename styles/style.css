@@ -72,7 +72,7 @@ footer {
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	color: lightcoral;
 	text-shadow: 1px 1px grey;
@@ -95,9 +95,9 @@ p {
 	background-size: cover;
 	height: 300px;
 	width: 600px;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	text-align: center;
-	color: #710;
+	color: white;
 	font-weight: bolder;
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
@@ -108,10 +108,10 @@ p {
 	background-size: cover;
 	height: 300px;
 	width: 600px;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	text-align: center;
 	font-weight: bolder;
-	color: black;
+	color: #327;
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
 }
@@ -121,12 +121,13 @@ p {
 	background-size: cover;
 	height: 300px;
 	width: 600px;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	text-align: center;
 	font-weight: bolder;
-	color: navy;
+	color: blue;
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
+	margin-top: 10px;
 }
 
 .button {
@@ -145,6 +146,12 @@ p {
 	height: 50px;
 	width: 100px;
 	cursor: pointer;
+}
+
+.results {
+	font-size: 2rem;
+	color: lightcoral;
+	text-shadow: 1px 1px grey;
 }
 
 footer {
