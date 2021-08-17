@@ -37,3 +37,7 @@ if (countsAsAYes(answer3)){rightAnswers++
 alert(`Thanks ${chosenName}.`);
 results.textContent = `${chosenName} your results are: ${rightAnswers}/3 correct`;
 });
+
+resetButton.addEventListener('click',()=>{
+  window.location.reload();
+});
