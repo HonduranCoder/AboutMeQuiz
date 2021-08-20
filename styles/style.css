@@ -4,11 +4,11 @@
 
 body {
 	/* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-	/* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
+	 --color1: rgb(247, 150, 168);
+    --color2: rgb(0, 140, 255);
+	--color4: rgb(237, 247, 248);
+    --color5: rgb(59, 6, 57);
+    --color3: rgb(255, 200, 252);
 
 	/* --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
@@ -74,7 +74,7 @@ footer {
 h2 {
 	font-size: 3.5rem;
 	font-weight: bold;
-	color: lightcoral;
+	color: rgb(157, 243, 175);
 	text-shadow: 1px 1px grey;
 }
 
@@ -91,43 +91,56 @@ p {
 }
 
 .iceland {
-	background-image: url("https://images.unsplash.com/photo-1498337687573-7d92b5614e4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2568&q=80");
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://thumbs.gfycat.com/AbsoluteUnfortunateArabianhorse-size_restricted.gif");
 	background-size: cover;
-	height: 300px;
+	height: 550px;
 	width: 600px;
-	font-size: 1.75rem;
-	text-align: center;
+	font-size: 2.0rem;
+	text-align:center;
 	color: white;
 	font-weight: bolder;
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
+	border-radius: 50%;
 }
 
-.dog {
-	background-image: url("https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80");
+.dog {display:flex;
+	justify-content: center;
+	align-items:center;
+	background-image: url("https://media2.giphy.com/media/3BMAOe6KoSqEy1CIVO/giphy.gif");
 	background-size: cover;
-	height: 300px;
+	height: 600px;
 	width: 600px;
 	font-size: 1.75rem;
 	text-align: center;
 	font-weight: bolder;
-	color: #327;
+	color: rgb(6, 26, 4);
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
+	border-radius: 50%;
 }
 
-.honduras {
-	background-image: url("https://images.unsplash.com/photo-1585513849843-2cb17ced6d4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2534&q=80");
+.honduras {display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image: url("https://thumbs.gfycat.com/LiquidSnappyAustralianshelduck-size_restricted.gif");
 	background-size: cover;
-	height: 300px;
+	height: 600px;
 	width: 600px;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	text-align: center;
 	font-weight: bolder;
-	color: blue;
+	color: rgb(0, 1, 88);
 	text-shadow: 1px 1px grey;
 	font-family: Montserrat;
 	margin-top: 10px;
+	border-radius: 50%;
+}
+.dino{
+	border-radius: 50%;
 }
 
 .button {
